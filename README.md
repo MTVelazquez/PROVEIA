@@ -1,73 +1,27 @@
-# Welcome to your Lovable project
+## Inspiration
 
-## Project info
+While gaining some hands-on experience, our team members realized that, even in today’s “interconnected” society, finding suppliers for diverse companies took an agonizingly long time and an incredible number of resources. In a world that moves that quickly and shape-shifts even faster, being able to cover your foundations as a business owner at its pace is non-negotiable. ProveIA was born out of the frustration of occupying golden time in a task that could be fixed with some internet and a lot of courage.
 
-**URL**: https://lovable.dev/projects/621c845e-f8b8-4720-bda1-72684b7be6d6
+## What it does
 
-## How can I edit this code?
+ProveIA focuses on searching and matching different suppliers for the same product near a business owner. It checks for location, budget, response time, and other parameters to ensure that every entrepreneur out there gets the best option available on the market. This is done by profiling the user and its necessities to fit the supplier’s abilities like a glove.
 
-There are several ways of editing your application.
+## How we built it
 
-**Use Lovable**
+First, find a database with enough information about suppliers in the country to extract and match with our users’. In this case the Mexican’s government INEGI’s database was used. Then, use an API to extract the location and connect with AI to receive the prompt from the user and filter through the list of suppliers. Last, work in an interface that was easy for the user to navigate and that would stand out from other websites in the market.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/621c845e-f8b8-4720-bda1-72684b7be6d6) and start prompting.
+## Challenges we ran into
 
-Changes made via Lovable will be committed automatically to this repo.
+The first major problem we encountered was that most API’s that would provide us with good and filtered information were only available after payment. This meant that we would have to find more creative ways to obtain the information we needed. Another wall we ran into was that most necessary resources were incredibly deep in the internet. This only further proves our point that this side of business is constantly undermined and ignored. Last problem would be trying to balance the absolute musts and the over-the-top greedy features that would cost us valuable time.
 
-**Use your preferred IDE**
+## Accomplishments that we're proud of
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+We are incredibly proud of the way we worked as a team and agreed to turn in our best work regardless of whether it would be worthy of recognition or not. We are proud of finding great databases, successfully calling both API’s, integrating AI in a natural way, using a fully hand-made interface, and contributing to spreading the word about ways to decrease production time in a business.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## What we learned
 
-Follow these steps:
+Some of us worked with new tools and adapted fairly quickly to them. Others expanded their horizons while taming unexplored software tools. And even through all of that, we still had time to laugh until we cried and have the occasional mid-hackathon crisis. We learnt to trust in our team members abilities and support the changes most of us deemed appropriate. But, most importantly, we learnt that even the highest of walls can be climbed with some research and back up. 
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## What's next for ProveIA
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/621c845e-f8b8-4720-bda1-72684b7be6d6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+We would love nothing more than to see ProveIA be the go-to tool entrepreneurs of all sizes, experiences and places used and relied on to optimize their business. For us, it is not about being the biggest or shiniest, it is about being the most reliable and useful. Therefore, we want to work to keep it as low-cost as possible and accessible in different parts of the country, perhaps even the world.
