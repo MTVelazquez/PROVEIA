@@ -1,0 +1,17 @@
+/* Import Leaflet styles */
+@import 'leaflet/dist/leaflet.css';
+
+/* Custom marker styles */
+.leaflet-container {
+  font-family: inherit;
+}
+
+.custom-marker {
+  background: transparent;
+  border: none;
+}
+
+/* Fix for marker icons */
+.leaflet-default-icon-path {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png);
+}

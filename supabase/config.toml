@@ -1,0 +1,37 @@
+project_id = "trsfgowhqrjijddawhjy"
+
+[functions.search-providers]
+verify_jwt = true
+
+[functions.plaid-create-link-token]
+verify_jwt = true
+
+[functions.plaid-exchange-token]
+verify_jwt = true
+
+[functions.plaid-get-transactions]
+verify_jwt = true
+
+[functions.plaid-get-balance]
+verify_jwt = true
+
+[functions.create-payment]
+verify_jwt = true
+
+[functions.stripe-get-payments]
+verify_jwt = true
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.alpha-vantage-stock]
+verify_jwt = false
+
+[functions.alpha-vantage-forex]
+verify_jwt = false
+
+[functions.exchange-rate-convert]
+verify_jwt = false
+
+[functions.exchange-rate-latest]
+verify_jwt = false
